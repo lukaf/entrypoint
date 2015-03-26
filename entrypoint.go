@@ -14,9 +14,8 @@ func getIp() string {
 	ips, _ := net.LookupHost(hostname)
 	if len(ips) > 0 {
 		return ips[0]
-	} else {
-		return "127.0.0.1"
 	}
+	return "127.0.0.1"
 }
 
 func parseArgs(arguments []string) []string {

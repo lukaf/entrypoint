@@ -1,4 +1,5 @@
 ```bash
+$ go build entrypoint.go
 $ docker build -t myetcd .
 [...]
 
